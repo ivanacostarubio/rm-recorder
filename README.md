@@ -1,6 +1,6 @@
 # rm-recorder
 
-TODO: Write a gem description
+A series of classes that allow us to record the screen or camara without pain.
 
 ## Installation
 
@@ -18,12 +18,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    @tape = ScreenRecorder.new
+    # # start a recording with
+    @tape.record
+    # # stop it: 
+    @tape.stop 
+
+
+You should have af ile called video_recording.mov. Change thename of the output file by passing the name to the initializer
+
+  @tape = ScreenRecorder.new("zomg.mov")
 
 ## Contributing
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+1. Let's create a few of this to capture the screen, camares, etc.
