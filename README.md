@@ -27,8 +27,8 @@ Or install it yourself as:
 
 You should have af ile called video_recording.mov. Change thename of the output file by passing the name to the initializer
 
-  @tape = ScreenRecorder.new("zomg.mov")
+    @tape = ScreenRecorder.new("zomg.mov")
 
 ## Contributing
 
-1. Let's create a few of this to capture the screen, camares, etc.
+1. Let's create a few of this to capture the screen, camaras, etc.
