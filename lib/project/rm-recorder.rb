@@ -16,7 +16,7 @@ class ScreenRecorder
   def initialize(video_path="video_recording.mov")
     setup_video
     setup_recording
-    @video_path = NSURL.fileURLWithPath(video_path))
+    @video_path = NSURL.fileURLWithPath(video_path)
   end
 
   def record
