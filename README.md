@@ -1,6 +1,6 @@
 # rm-recorder
 
-A series of classes that allow us to record the screen or camara without pain.
+A series of classes that allows us to record the screen or camera without pain.
 
 ## Installation
 
@@ -25,7 +25,7 @@ Or install it yourself as:
     @tape.stop 
 
 
-You should have af ile called video_recording.mov. Change thename of the output file by passing the name to the initializer
+By default you should have a file called `video_recording.mov`. The output file name is changeable by passing the desired name to the initializer
 
     @tape = ScreenRecorder.new("zomg.mov")
 
