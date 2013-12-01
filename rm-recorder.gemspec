@@ -1,15 +1,15 @@
 # -*- encoding: utf-8 -*-
-VERSION = "1.0"
+VERSION = "0.1"
 
 Gem::Specification.new do |spec|
   spec.name          = "rm-recorder"
   spec.version       = VERSION
-  spec.authors       = [""]
-  spec.email         = [""]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
-  spec.license       = ""
+  spec.authors       = ["Ivan Acosta-Rubio"]
+  spec.email         = ["ivan@softwarecriollo.com"]
+  spec.description   = %q{Record the screen on OSX with RubyMotion}
+  spec.summary       = %q{Record the screen on OSX with RubyMotion}
+  spec.homepage      = "https://github.com/ivanacostarubio/rm-recorder"
+  spec.license       = "MIT"
 
   files = []
   files << 'README.md'
